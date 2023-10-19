@@ -42,5 +42,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun GreetingPreview() {
     PositiveQuotesTheme {
         Greeting("Android")
+        Greeting(name = "hey there")
+        Greeting(name = "Hello")
     }
 }
